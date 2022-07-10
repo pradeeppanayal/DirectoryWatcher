@@ -22,13 +22,13 @@ This script watches a directory and deletes any files which are not in the prede
     DIRECTORY =  D:\work\directorywatcher
     #LEVEL=DEBUG
     LEVEL=DEBUG
-# Execution
+# How to Run 
     python FileWatcher.py <config file>
 
 Example:
 
     python FileWatcher.py Watcher.ini
-# Code
+# Basics
 Intilize logging
     
     CommonUtils.initLogging(logFilePath, level);
@@ -38,3 +38,13 @@ Intilize the watcher
 Start the watcher
 
     watcher.watch();
+
+# Logging
+Uses the `logging` module to log. The log file will be auto created in the `[LOG].DIRCETORY` specified in the `config.ini` file. 
+
+Log file name will be of below format,
+
+    log_<date in yyyyMMdd format>_<identifier specified in ini file>.log
+Sample,
+
+    log_20220710_testrun.log
