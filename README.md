@@ -1,5 +1,5 @@
 # Directory Watcher
-This script allows the user to monitor a directory, and automatically deletes files which are not defined in the provided files masks. No third party libraries are used in this implementation.
+This script allows the user to monitor a directory, and automatically deletes files which are not defined in the configurable file masks. No third party libraries are used in this implementation.
 
 # Sample Config
     [DEFAULT]
