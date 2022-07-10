@@ -1,4 +1,4 @@
-# DirectoryWatcher
+# Directory Watcher
 This script watches a directory and deletes any files which are not in the predefined white-listed filenames. 
 
 # Sample Config
