@@ -1,5 +1,5 @@
 # Directory Watcher
-This script watches a directory and deletes any files which are not in the predefined white-listed filenames. 
+This script allows the user to monitor a directory, and automatically deletes files which are not defined in the provided files masks. No third party libraries are used in this implementation.
 
 # Sample Config
     [DEFAULT]
