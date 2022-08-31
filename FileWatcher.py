@@ -1,4 +1,3 @@
-from genericpath import isdir
 import sys
 import configparser
 import time
